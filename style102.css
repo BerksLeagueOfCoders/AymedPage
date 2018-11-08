@@ -1,0 +1,48 @@
+body{
+	background-color:gray;
+	font-family:Arial;
+	color:white;
+	margin-left:40px;
+	margin-right:40px;
+}
+
+h1, h2, h3{
+		text-align:center;
+		
+		
+}
+
+header{
+	background-color:black;
+	
+}
+
+header a{
+		color:white;
+		font-size:32px;
+		position:relative;
+		text-decoration:none;
+	
+}
+aside{
+	float:left;
+	background-color:#eff8ff
+	
+		
+}
+
+article{
+		margin-top:100px;
+		border:solid 3px yellow;
+		background-color:black;
+		padding:40px;
+	
+}
+
+article p{
+		font-family:arial;
+		font-size:20px;
+	
+	
+}
+
