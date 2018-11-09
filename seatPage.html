@@ -3,12 +3,15 @@
 <html>
 	<head>
 		<title>Reservation</title>
-		<link rel="stylesheet" href="style102.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="webStyle101.css">
+		<link rel="stylesheet" href="barrio.css">
 	</head>
 	
 	<body>
 		<header>
-			<img src="logo.png" style="height:48px;">
+			<a href="homePage.html">
+			<img src="logo.png" style="height:48px;"></a>
 			<a href="homePage.html">HOME</a>
 			<a>SCHEDULE</a>
 			<a href="about.html">ABOUT</a>
@@ -16,6 +19,51 @@
 			<a>FAQ</a>
 			<a>ANNOUNCEMENT</a>
 		</header>
+		
+		<body>
+			<form margin-right:40px; margin-left:40px>
+			
+			
+			<h2 class="header">Contact Information</h2>
+			
+			<label>Email:</label>
+			<br>
+			<input type="text" name="email" value="your email" style="width:90%; height:30px"><br>
+			
+			<label>First Name:</label>
+			<br>
+			<input type="text" name="First-Name" value="First name"style="width:45%;"><br>
+			
+			<label>Last Name:</label>
+			<br>
+			<input type="text" name "Last-name" value="Last Name"style="width:45%;"><br>
+			
+			<label>Your address:</label>
+			<br>
+			<input type="text" name="address" value= "address"style="width:90%;"><br>
+			
+			
+			<h2 class="header">Payment Information</h2>
+			
+			<label>Card Number</label>
+			<br>
+			<input type="text" name="card-number" style="width:90%">
+			
+			<label>EXP.date</label> 
+			
+			<label style="padding-left:350px">CVV</label><br>
+			
+			<input type="text" name="exp-date" style="width:40%; display:inline" />
+			
+			<input type="text" name="cvv" style="width:40%"/>
+			
+			<!--Submit button-->
+			<input type="submit" value="Reserve!">
+			
+		</form>
+		
+		</body>
+		
 		
 		
 		

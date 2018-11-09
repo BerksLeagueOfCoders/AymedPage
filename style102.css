@@ -1,5 +1,5 @@
 body{
-	background-color:gray;
+	background-color:black;
 	font-family:Arial;
 	color:white;
 	margin-left:40px;
@@ -8,7 +8,6 @@ body{
 
 h1, h2, h3{
 		text-align:center;
-		
 		
 }
 
@@ -33,7 +32,7 @@ aside{
 
 article{
 		margin-top:100px;
-		border:solid 3px yellow;
+		
 		background-color:black;
 		padding:40px;
 	
