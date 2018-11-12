@@ -30,6 +30,9 @@ header{
 		font-family:d-din, dinWeb;
 }
 
+#main{
+	display:flex;
+}
 header a{
 	position:relative;
 	text-decoration:none;
@@ -40,8 +43,7 @@ header a{
 	display: table-cell;
 
 vertical-align: middle;
-
-padding-left: 22px;
+	text-align: center;
 
 	font-family:DIN_Medium,d-din, d_din, DINweb;
 
@@ -51,9 +53,8 @@ header a:hover{
 }
 
 #right{
-		width:36%;
+		flex:36%;
 		margin-top:180px;
-		display: table-cell;
 		overflow: hidden;
 		border: 12px solid rgba(0,0,0,0);
 	
@@ -61,10 +62,9 @@ header a:hover{
 }
 
 #left{
-			width:64%;
+			flex:64%;
 
 
-		display: table-cell;
 		overflow: hidden;
 	
 }
