@@ -13,7 +13,16 @@ h1, h2, h3{
 	
 	
 }
+.centered{
 
+	text-align:center;
+}
+
+#links{
+vertical-align: top;
+display: inline-table;
+height:100%;	
+}
 header{
 		background-color:black;
 		overflow:hidden;
@@ -25,26 +34,35 @@ header a{
 	text-decoration:none;
 	font-size:28px;
 	color:white;
-	
-	margin-top:14px;
-	margin-bottom:12px;
-	margin-left:22px;
-	
+
+	display: table-cell;
+
+vertical-align: middle;
+
+padding-left: 22px;
 }
 header a:hover{
 		background-color:green;
 }
 
-aside{
-		float:right;
+#right{
 		width:36%;
-		background-color:black;
 		margin-top:180px;
-	
+		display: table-cell;
+		overflow: hidden;
+		border: 12px solid rgba(0,0,0,0);
 	
 	
 }
 
+#left{
+			width:64%;
+
+
+		display: table-cell;
+		overflow: hidden;
+	
+}
 .seat{
 		font-size:52px;
 		color:yellow;
@@ -55,9 +73,8 @@ aside{
 .seat:hover{
 		background-color:green;
 }
-section{
-	float:left;
-	width:60%;
+section{	
+	width:100%;
 	background-color:black;
 	color:white;
 	font-family:arial;

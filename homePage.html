@@ -4,52 +4,26 @@
 
 	<head>
 		<title>Home Page</title>
-		<link rel="stylesheet" href="webStyle101.css">
+		<link rel="stylesheet" href="webSt	yle101.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	
 	<body>
 	
 		<header>
-			<img src="logo.png" style="height:48px;">
+			<img src="logo.png" style="height:100%;">
+			<div id="links">
+			
 			<a href="homePage.html">HOME</a>
 			<a href="schedule.html">SCHEDULE</a>
 			<a href="about.html">ABOUT</a>
 			<a>CONTACT</a>
 			<a>FAQ</a>
 			<a>ANNOUNCEMENT</a>
+			</div>
 		</header>
-		 
-		<aside>
-			<center><a href="seatPage.html" class="seat">Reserve Seats</a></center>
-		
-			<div>
-				<h2>Price</h2>
-				<ul>
-					<li>Early Bird: 5$</li>
-					<li>Standard:  10$</li>
-					<li>Day of the event:  15$</li>
-				</ul>
-				
-				<h2>What Happen During the Event</h2>
-				<ol>
-					<li>15+ tournaments</li>
-					<li>Food/Drink Vendors </li>
-					<li>Sponsor freebies/Giveaways/Prizes</li>
-					<li>Early Bird Exclusive T-Shirt/Tournament</li>
-					<li>General Free play</li>
-					<li>Raffles</li>
-				</ol>
-				
-				<div>
-					<h2>Where and When</h2>
-					<p style="margin-left:30px;margin-right:30px;">The dates for the event are May 17 to 19th, 2018
-						Location: Crowne Plaza 
-						1741 Papermill Rd, Reading, PA 19610</p>
-					
-				</div>
-		</aside>
-		
+		<div style="display:table">
+		<div id="left">
 		<section>
 			<video width="100%" height="auto" controls autoplay>
 				<source src="1_1.mp4" type="video/mp4">
@@ -80,6 +54,41 @@
 				
 			</article>
 		</section>
+		</div>
+		
+		
+		<div id="right">
+			<div style="background-color:black;">
+				<div class="centered"><a href="seatPage.html" class="seat">Reserve Seats</a></div>
+			
+				<div>
+					<h2>Price</h2>
+					<ul>
+						<li>Early Bird: 5$</li>
+						<li>Standard:  10$</li>
+						<li>Day of the event:  15$</li>
+					</ul>
+					
+					<h2>What Happen During the Event</h2>
+					<ol>
+						<li>15+ tournaments</li>
+						<li>Food/Drink Vendors </li>
+						<li>Sponsor freebies/Giveaways/Prizes</li>
+						<li>Early Bird Exclusive T-Shirt/Tournament</li>
+						<li>General Free play</li>
+						<li>Raffles</li>
+					</ol>
+					
+					<div>
+						<h2>Where and When</h2>
+						<p style="margin-left:30px;margin-right:30px;">The dates for the event are May 17 to 19th, 2018
+							Location: Crowne Plaza 
+							1741 Papermill Rd, Reading, PA 19610</p>
+						
+					</div>
+			</div>
+		</div>
+		</div>
 	</body>
 </html>
 		
