@@ -1,17 +1,17 @@
 
 body{
 	margin-left:60px;
-	background-color:#011b44;
+	background-color:black;
 	margin-right:60px;
 	color:white;
+	font-family:"Times New Roman", Times, serif;
 	
 	
 }
 h1, h2, h3{
 		text-align:center;
 		font-family:arial;
-	
-	
+		
 }
 .centered{
 
@@ -24,22 +24,27 @@ display: inline-table;
 height:100%;	
 }
 header{
-		background-color:black;
+		
 		overflow:hidden;
-		height:52px;
+		height:auto;
+		font-family:d-din, dinWeb;
 }
 
 header a{
 	position:relative;
 	text-decoration:none;
-	font-size:28px;
+	font-size:20px;
 	color:white;
+
 
 	display: table-cell;
 
 vertical-align: middle;
 
 padding-left: 22px;
+
+	font-family:DIN_Medium,d-din, d_din, DINweb;
+
 }
 header a:hover{
 		background-color:green;
